@@ -98,12 +98,12 @@ We trained the CLIP model with a ViT32 base using two different approaches as me
 ### 1. **Training without Data Augmentation:**
 **Convergence:** The model converged after 15 epochs without applying any data augmentation techniques. This demonstrates the model's ability to learn from the raw dataset effectively.
 
-![Training Convergence without Data Augmentation](loss%20without%20data%20aug.jpg)
+![Training Convergence without Data Augmentation](loss_without_data_aug.png)
 
 ### 2. **Training with Data Augmentation:**
 **Convergence:** When trained with data augmentation, the model took 21 epochs to converge. The augmentation techniques likely provided additional variations in the data, enhancing the model's robustness and generalization capabilities.
 
-![Training Convergence with Data Augmentation](loss%20with%20data%20aug.jpg)
+![Training Convergence with Data Augmentation](loss_with_data_aug.png)
 
 ## Results
 The evaluation of model performance utilized several key metrics: 
