@@ -122,12 +122,12 @@ Below is the table displaying the results of zero-shot learning, as well as fine
 
 | Metric         | Zero-shot | Fine-tuning without Data Augmentation | Fine-tuning with Data Augmentation |
 |----------------|-----------|---------------------------------------|------------------------------------|
-| Precision      | 43.64 %   |                 45.41 %               |              44.89 %               |
-| Recall         | 42.54 %   |                 47.93 %               |              45.40 %               |
-| F1 Score       | 43.09 %   |                 46.63 %               |              45.14 %               |
-| Top-1 Accuracy | 60.22 %   |                 70.11 %               |              65.91 %               |
-| Top-5 Accuracy | 75.09 %   |                 85.98 %               |              79.92 %               |
-| nDCG           | 67.54 %   |                 77.59 %               |              72.75 %               |
+| Precision      | 43.64 %   |                 46.08 %               |              44.97 %               |
+| Recall         | 42.54 %   |                 48.71 %               |              45.48 %               |
+| F1 Score       | 43.09 %   |                 47.36 %               |              45.22 %               |
+| Top-1 Accuracy | 60.22 %   |                 67.90 %               |              65.91 %               |
+| Top-5 Accuracy | 75.09 %   |                 84.87 %               |              80.30 %               |
+| nDCG           | 67.54 %   |                 76.67 %               |              72.86 %               |
 
 
 The table compares the results of zero-shot learning and CLIP fine-tuning, with and without data augmentation. Across all metrics, both fine-tuned models (with and without augmentation) outperform the zero-shot learning baseline.
